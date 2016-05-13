@@ -42,6 +42,14 @@ a {
 		position: absolute;
 		right: 3em;
 		top: 3em;
+		#plogo {
+			color: #9eafba;
+			text-decoration: none;
+			transition: all .4s ease;
+			&:hover {
+					color: #F578F5;
+				}
+		}
 	}
 	ul {
 		list-style: none;
@@ -51,7 +59,7 @@ a {
 			font-weight: 700;
 			font-size: 0.7em;
 			text-transform: uppercase;
-			color: #33acb7;
+			color: #F578F5;
 		}
 		li {
 			padding: .5em 0;
@@ -60,7 +68,7 @@ a {
 				text-decoration: none;
 				transition: all .4s ease;
 				&:hover {
-					color: #33acb7;
+					color: #F578F5;
 				}
 			}
 		}
@@ -86,10 +94,10 @@ a {
 	padding: .5em 1.5em;
 	border-radius: 1.5em;
 	&:hover {
-		border: 1px solid #33acb7;
-		color: #33acb7;
+		border: 1px solid #F578F5;
+		color: #F578F5;
 		a {
-			color: #33acb7 !important;
+			color: #F578F5 !important;
 		}
 	}
 }
@@ -136,7 +144,7 @@ a {
 				color: #2a2f35;
 				font-size: 1.5em;
 				&:hover {
-					color: #33acb7;
+					color: #F578F5;
 				}
 			}
 		}
