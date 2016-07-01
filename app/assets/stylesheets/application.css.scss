@@ -84,6 +84,11 @@ a {
 		top: 70%;
 		font-size: .8em;
 		color: #9eafba;
+		text-decoration: none;
+		transition: all .4s ease;
+		&:hover {
+			color: #F578F5;
+		}
 	}
 }
 
@@ -265,8 +270,14 @@ a {
 		border-radius: 1.5em;
 		margin-left: .5em;
 		&:hover {
-			border: 1px solid #33acb7;
-			color: #33acb7;
+			border: 1px solid #F578F5;
+			color: #F578F5;
 		}
 	}
+}
+.signup {
+	margin-left: 4%;
+}
+.forgot {
+	margin-left: 4%;
 }
